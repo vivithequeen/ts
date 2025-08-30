@@ -25,7 +25,6 @@ label start:
     show can default
 
     # These display lines of dialogue.
-    voice "c.ogg" 
     c "at ts(the start) there was once a land called HACKCLUB"
     c "ts was a sad land, no joy nor whimsy was apparent in the smiles of the hackclubers"
     c "ts was sad, until a hero came, CAN."
@@ -35,12 +34,16 @@ label start:
     menu:
         "okay..?":
             show can sad
+
             c "ts is amazing!"
         "what is ts?":
             show can happy
+
             c "im so glad you asked!"
+
             c "ts is the BEST ysws(you shine, we shine) "
         "who are u":
+
             c "i am CAN!"
 
     hide can

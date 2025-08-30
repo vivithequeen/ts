@@ -30,8 +30,10 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+
 ALL CHARACTERS IN THIS STORY ARE PURELY FICTIONAL. ANY RESEMBLANCE TO REAL PEOPLE IS DONE WITH THE CONSENT OF THE PERSON AND DOES NOT REPRESDENT WHO THEY ARE\n
-music by n0ob - {a=https://www.youtube.com/@n0o0b090lv}https://www.youtube.com/@n0o0b090lv{/a}\n
+Created by Vivithequeen\n
+audio/music by n0o0b - {a=https://www.youtube.com/@n0o0b090lv}https://www.youtube.com/@n0o0b090lv{/a}\n
 \"art\" made by CAN\n
 made for storyboard.hackclub.com
 """)
