@@ -4,14 +4,14 @@ $ import random
 # name of the character.
 
 
-define s = Character(name = "Sofia", color = "#DC143C")
-define c = Character(name = "CAN", color = "#000000")
+define s = Character(name = "Sofia", color = "#DC143C", voice_tag = "yap.ogg")
+define c = Character(name = "CAN", color = "#000000", voice_tag = "yap.ogg")
 #DC143C
 
 # The game starts here.
 
 label start:
-
+    play music "TI5OR.ogg"
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -25,7 +25,7 @@ label start:
     show can default
 
     # These display lines of dialogue.
- 
+    voice "c.ogg" 
     c "at ts(the start) there was once a land called HACKCLUB"
     c "ts was a sad land, no joy nor whimsy was apparent in the smiles of the hackclubers"
     c "ts was sad, until a hero came, CAN."
@@ -151,7 +151,7 @@ label can:
             show can dead
             c "AHHHHHHHHHHHHHHHHHH *dies*"
             hide can
-            show sofia happy 
+            show sofia happy at center
             s "now without ts.hackclub.com, shipwrecked.hackclub.com will be the ONLY YSWS(you sketch we sketch)"
 
             "ENDING 2 : shipwrecked.hackclub.com"

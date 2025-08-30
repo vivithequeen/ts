@@ -18,7 +18,7 @@ define config.name = _("ts")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -30,6 +30,10 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+ALL CHARACTERS IN THIS STORY ARE PURELY FICTIONAL. ANY RESEMBLANCE TO REAL PEOPLE IS DONE WITH THE CONSENT OF THE PERSON AND DOES NOT REPRESDENT WHO THEY ARE\n
+music by n0ob - {a=https://www.youtube.com/@n0o0b090lv}https://www.youtube.com/@n0o0b090lv{/a}\n
+\"art\" made by CAN\n
+made for storyboard.hackclub.com
 """)
 
 
@@ -62,7 +66,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "TI5OR_BG.ogg"
 
 
 ## Transitions #################################################################
